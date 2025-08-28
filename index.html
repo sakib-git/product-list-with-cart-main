@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Product list with cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="menu-list-container">
+        <h1>Desserts</h1>
+        <div class="hero" id="hero"></div>
+      </div>
+
+      <div class="orderitem">
+        <h2>Your Cart (<span class="cart-amount">0</span>)</h2>
+        <div class="ordercake">
+          <img src="assets/images/illustration-empty-cart.svg" alt="" />
+          <p class="orderp">Your added items will appear here</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Confirmed Modal -->
+    <div class="confirmed-modal">
+      <div class="orderConfirmed">
+        <div class="orderConfirmedfirstdiv">
+          <img src="./assets/images/icon-order-confirmed.svg" alt="" />
+          <div>
+            <h4>Order Confirmed</h4>
+            <span>We hope you enjoy your food!</span>
+          </div>
+        </div>
+
+        <div class="orderlist">
+          <div class="confirmed-item-list-container">
+            <!-- confirmed list -->
+          </div>
+          <div>
+            <span>order Total</span>
+            <span class="total-confirmed-amount-container">$46.50</span>
+          </div>
+        </div>
+
+        <button class="start-new-order-btn">Start New Order</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
